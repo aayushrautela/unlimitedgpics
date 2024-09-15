@@ -1,5 +1,5 @@
 if [ -n "$KSU" ] && [ ! -d "$NVBASE/modules/zygisksu" ]; then
-	abort "You do not have ZygiskNext installed. Bye."
+	abort "You do not have ZygiskNext installed."
 fi
 for i in /system/product/etc/sysconfig/*; do
     file=$i
